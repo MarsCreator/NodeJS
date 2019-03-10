@@ -3,7 +3,7 @@ var http = require("http");
 http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
-   // Send the response body as "Hello World"
+   // Send the response body as "Hello Mars"
    response.end('Hello Mars!\n');
 }).listen(8081);
 
